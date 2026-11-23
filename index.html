@@ -138,6 +138,7 @@ h2 { font-family: var(--display); font-weight: 700; font-size: 1.9rem; letter-sp
 .thumbs.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .plate.tall { aspect-ratio: 3 / 4; }
 .plate.tall.photo img { object-position: center; }
+.thumb .plate.photo { --pad: 0px; }
 .plate.chart { --pad: 10px; aspect-ratio: 3 / 2; }
 .exp .titleblock { margin-top: 18px; }
 .thumb { margin: 0; display: grid; gap: 6px; min-width: 0; }
@@ -269,7 +270,7 @@ footer h2 { font-size: 1.6rem; }
           <li>Did all of the mechanical and electrical engineering for an alternative communication system projected to help nonverbal kids with fine motor challenges communicate, giving non-speakers in the community a voice on iPads and other touchscreen tablets.</li>
           <li>Collaborated with the software team to synchronize the web letterboard with the tablet case and button circuit, so the software and hardware work together as one system.</li>
           <li>Designed the full tablet case as a CAD model for PETG, with three large quick-response buttons for "Yes", "No", and "I need help".</li>
-          <li>Built the button circuit: three 20 mm momentary buttons trigger sound modules that drive a speaker, reworked to run from one shared rechargeable battery.</li>
+          <li>Soldered three 20 mm momentary push buttons to sound modules, each driving its own speaker, so a single press plays a recorded phrase.</li>
         </ul>
         <div class="rails" aria-label="Button signal path">
           <span class="rail in">Button</span>
@@ -414,7 +415,7 @@ footer h2 { font-size: 1.6rem; }
           </figure>
         </div>
         <div class="project-body">
-          <span class="status done">Complete · Fall 2026</span>
+          <span class="status done">Complete</span>
           <h3>Model Wind Turbine</h3>
           <p>Scaled wind tunnel model of a recreational marine wind turbine: a three-blade, straight-blade H-rotor vertical-axis wind turbine (VAWT) coupled to an RS-340 permanent-magnet DC motor operating as the generator. The model was used to characterize how airfoil blade profile affects cut-in wind speed and generated voltage.</p>
           <p><strong>Small-scale model: low output by design.</strong> At this rotor diameter and swept area, and with a small brushed DC generator, the measured terminal voltage is low and peak electrical power stays below 20&nbsp;mW. Results are intended for relative comparison between blade profiles, not for usable power generation.</p>
